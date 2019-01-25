@@ -1,4 +1,3 @@
-
 FROM ubuntu:bionic
 MAINTAINER RStudio Connect <rsconnect@rstudio.com>
 
