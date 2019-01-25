@@ -8,7 +8,5 @@ RUN export DEBIAN_FRONTEND=noninteractive && \
         curl \
         jq
 
-RUN ["chmod", "+x", "/content/prog-deploy-jenkins/upload-and-deploy.sh"]
-
 # Start in /content, a mounted volume expected to contain our content.
 WORKDIR /content
