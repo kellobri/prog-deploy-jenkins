@@ -31,7 +31,7 @@ fi
 #     echo "usage: $0 <app-guid>"
 #     exit 1
 # fi
-APP=$(echo "$1" | sed 's/[][]//g' | sed 's/^.//')
+APP="$1"
 BUNDLE_PATH="./bundle.tar.gz"
 CONTENT_DIRECTORY="$2"
 echo "APP GUID: ${APP}"
