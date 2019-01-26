@@ -1,5 +1,7 @@
 # Programmatic RStudio Connect Content Updates through Jenkins and GitHub Webhooks
 
+This workflow assumes that the content has been manually created or push-button deployed to the Connect Server such that there is already an available `GUID` associated with the content.
+
 Freestyle Project Build Steps:
 
 - Clones github repo with `dockerfile` and customized `upload-and-deploy.sh` shell script
